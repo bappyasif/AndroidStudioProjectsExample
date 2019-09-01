@@ -1,0 +1,51 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        3075a05 com.example.android.pets/.CatalogActivity filter b74dd02
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.example.android.pets]
+      Signing KeySets: 12
+
+Packages:
+  Package [com.example.android.pets] (b4e117e):
+    userId=10084
+    pkg=Package{c6d0a5a com.example.android.pets}
+    codePath=/data/app/com.example.android.pets-1
+    resourcePath=/data/app/com.example.android.pets-1
+    legacyNativeLibraryDir=/data/app/com.example.android.pets-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=15 targetSdk=24
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{f31048b com.example.android.pets}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.example.android.pets
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2017-04-03 17:49:17
+    firstInstallTime=2017-04-01 03:13:15
+    lastUpdateTime=2017-04-03 17:49:18
+    signatures=PackageSignatures{4950df5 [abf6c708]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0: ceDataInode=28368 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [com.example.android.pets]
+    Instruction Set: x86
+      path: /data/app/com.example.android.pets-1/base.apk
+      status: /data/app/com.example.android.pets-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpTo
+      Date]
+
+
+Compiler stats:
+  [com.example.android.pets]
+     base.apk - 895
